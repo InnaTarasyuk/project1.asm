@@ -48,7 +48,7 @@ int main() {
     do {
         std::cout << "Input a number of monks <= 100:" << std::endl;
         n = input();
-    } while (n <= 0 || n >= 100);
+    } while (n <= 0 || n > 100);
     do {
         std::cout << "Input max energy value: " << std::endl;
         max_energy = input();
