@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -fsanitize=address,undefined -fno-sanitize-recover=all   CMakeFiles/my_project.dir/main.cpp.o  -o my_project 
